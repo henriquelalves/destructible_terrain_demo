@@ -1,0 +1,166 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://block.tscn" type="PackedScene" id=1]
+[ext_resource path="res://mouse.tscn" type="PackedScene" id=2]
+
+[node name="stage" type="Node2D"]
+
+[node name="blocks" type="Control" parent="."]
+
+editor/display_folded = true
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 40.0
+margin/bottom = 40.0
+
+[node name="blockx32" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 342.814, 216.299 )
+
+[node name="blockx36" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 342.814, 247.108 )
+
+[node name="blockx37" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 343.254, 277.917 )
+
+[node name="blockx38" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 343.254, 308.747 )
+
+[node name="blockx39" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 342.537, 339.935 )
+
+[node name="blockx40" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 343.254, 371.124 )
+
+[node name="blockx35" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 436.756, 216.299 )
+
+[node name="blockx36 3" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 436.756, 247.108 )
+
+[node name="blockx364" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 437.196, 277.917 )
+
+[node name="blockx366 3" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 437.196, 308.747 )
+
+[node name="blockx3664" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 436.479, 339.935 )
+
+[node name="blockx3665 2" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 437.196, 371.124 )
+
+[node name="blockx33" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 311.626, 216.299 )
+
+[node name="blockx36 4" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 311.626, 247.108 )
+
+[node name="blockx365" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 312.066, 277.917 )
+
+[node name="blockx366" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 312.066, 308.747 )
+
+[node name="blockx367" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 311.349, 339.935 )
+
+[node name="blockx368" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 312.066, 371.124 )
+
+[node name="blockx35 3" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 405.568, 216.299 )
+
+[node name="blockx354" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 405.568, 247.108 )
+
+[node name="blockx355" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 406.008, 277.917 )
+
+[node name="blockx356" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 406.008, 308.747 )
+
+[node name="blockx357" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 405.291, 339.935 )
+
+[node name="blockx358" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 406.008, 371.124 )
+
+[node name="blockx34" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 280.079, 216.299 )
+
+[node name="blockx36 2" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 280.079, 247.108 )
+
+[node name="blockx363" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 280.519, 277.917 )
+
+[node name="blockx366 2" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 280.519, 308.747 )
+
+[node name="blockx3663" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 279.802, 339.935 )
+
+[node name="blockx3665" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 280.519, 371.124 )
+
+[node name="blockx35 2" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 374.021, 216.299 )
+
+[node name="blockx353" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 374.021, 247.108 )
+
+[node name="blockx355 2" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 374.461, 277.917 )
+
+[node name="blockx3553" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 374.461, 308.747 )
+
+[node name="blockx3554" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 373.744, 339.935 )
+
+[node name="blockx3555" parent="blocks" instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 374.461, 371.124 )
+
+[node name="mouse" parent="." instance=ExtResource( 2 )]
+
+
