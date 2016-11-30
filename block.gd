@@ -10,6 +10,11 @@ func _on_blockx32_area_enter(a):
 	if size <= min_size:
 		queue_free()
 		return
+	
+	get_node("/root/global").yields.append(self)
+
+func divide():
+	
 	for i in range (0,2):
 		var newNode = duplicate()
 		newNode.size = size/2

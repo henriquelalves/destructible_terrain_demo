@@ -20,7 +20,7 @@ linear_damp = 0.1
 angular_damp = 1.0
 collision/mask = 2
 script/script = ExtResource( 1 )
-min_size = 4
+min_size = 2
 
 [node name="Sprite" type="Sprite" parent="."]
 
