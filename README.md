@@ -1,4 +1,4 @@
-# destructible_terrain_demo
+# Destructible Terrain Demo
 A simple demo on how to create destructible terrain on Godot.
 
 ![alt text](sample.gif)
